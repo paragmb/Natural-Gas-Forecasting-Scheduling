@@ -30,24 +30,19 @@ The following two time series forecasting models were used: 1) Prophet 2) ARIMA
 
 ---
 
-
-
----
-
 ## Usage
 
 Ensure the conda dev environment is activated.
 
-User should have created their own .env file that stores the values of Alpaca API key and Alpaca secret key. Using CLI, please run the python file "stock_op.py". When prompted:
+Please launch jupyter lab to run files following files:
 
-User needs to be ready with the following information: 
-- *Stock1 ticker* 
-- *Stock2 ticker* 
-- *Ratio/weight for Stock1* 
-- *Ratio/weight for Stock2*
-- *Investment Amount*
+- ng_correlation.ipynb - Natural gas trends and correlations/heatmap
+- arima_forecast.ipynb - Times Series Forecasting using ARIMA
 
-For the weights parameter, user must list the weight of each asset in the order that the assets appear in the DataFrame (hence enter the stock ticker in alphabetcal order  e.g. AAX should be entered before AAY and so on)
+Open Google Colab (https://colab.research.google.com/) and upload the following starter notebook:
+- prophet_ngforecasting.ipynb - Times Series Forecasting using Prophet
+
+All the csv files to run the models are located in the Resources folder.
 
 ---
 
