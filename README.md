@@ -66,7 +66,7 @@ Useful insights can be gained from the quantitative plots. The dip in Apple (AAP
 Monte Carlo algorithm is used to predict future stock values. Past stock values downloaded using Alpaca APIs are used to create a normal distribution of past daily returns. MC algorithm uses past daily return normal distribution to predict future daily values and cumulative returns by randomly selecting values from the distribution and propagating the stock's current value into the future. Cumulative returns are calculated from the future stock values and plotted for 500 simulations. All simulations are numerically different from each other due to the randomly selected daily return values from the normal distribution. Cumulative return probability distribution is also shown as a bar graph to illustrate the most probable future scenario range from all 500 simulations. 95% Confidence interval and its boundary values are also given for information. These boundary values should be evaluated together with the future cumulative return distribution. The financial forecasting analysis plots are as follows:
 
 ### Summary of Prophet and ARIMA forecasting models 
-<img src="Images/MC_Simulation.png" width="400" height="300">
+<img src="Images/prophet_arima_comparison.png" width="650" height="350">
 
 ---
 
