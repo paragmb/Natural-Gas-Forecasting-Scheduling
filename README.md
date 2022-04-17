@@ -72,13 +72,13 @@ Monte Carlo algorithm is used to predict future stock values. Past stock values 
 
 ## Issues
 
-New library "DataReader" was initially used to pull historical stock data. The library was sucessfully used to perform the quantitative analysis but the group ran into issues while using the library for running Monte Carlo simulations. After discussions within the group and class instructor it was decided to use Alpaca library to load data. Additionally this was also done to ensure that the project was completed on time. Please refer to the code file in the SUPERSEDED folder in the main repository.
+Waiting for Onur to send the csv file issues while dealing with ARIMA model. 
 
 ---
 
 ## New Library
 
-New library "Bokeh" was used. Bokeh is a data visualization library in Python that provides high-performance interactive charts and plots. Bokeh output can be obtained in various mediums like notebook, html and server. We used it to get interactive Holoviews graph to display in Visual Studio (since the group did not use the Jupyter Lab).
+New library "ARIMA" was used. An ARIMA model is a class of statistical models for analyzing and forecasting time series data. ARIMA is short for "AutoRegressive Integrated Moving Average". Any ‘non-seasonal’ time series that exhibits patterns and is not a random white noise can be modeled with ARIMA models. If a time series, has seasonal patterns, then you need to add seasonal terms and it becomes SARIMA, short for ‘Seasonal ARIMA’. 
 
 ---
 
