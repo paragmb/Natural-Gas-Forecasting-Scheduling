@@ -48,7 +48,7 @@ All the csv files to run the models are located in the Resources folder.
 
 ## Identifying Patterns and Correlations/Heatmap
 
-Useful insights can be gained from the quantitative plots. The dip in Apple (AAPL) stock is due to split of shares during that period. Amazon (AMZN) stock has performed better than AAPL during last 3 yrs data. The Sharpe ratio shows the gain in relation to the risk. The returns have gone higher for both stocks after Covid pandemic. The quantitative analysis plots are as follows:
+Before moving to time series forecasting analysis it is important to identify any seasonal/unusual patterns in time series data. The variations of natural gas (Henry Hub) spot prices, USA average temperature, USA gas consumption, USA working gas storage and LNG exports over time are shown below. Further a correlation matrix and heatmap were also developed. Valuable insights can be gained looking at this patterns. Natural gas prices and gas consumption show peaks during winter months and then go lower during summer months. Natural gas storage is at the peak during the start of winter and then starts decreasing as the winter progresses. No strong correlation exists between domestic consumption and HH spot price. Good positive correlation exists between domestic consumption and exports indicating that USA is exporting gas to the countries in northern hemisphere. This data will be used to teach time series models to incorporate them into their predictions.
 
 ### Natural Gas Spot and Futures Prices (NYMEX) - Daily
 <img src="Images/dailyprice.png" width="650" height="300">
@@ -63,7 +63,7 @@ Useful insights can be gained from the quantitative plots. The dip in Apple (AAP
 
 ## Time Series Forecasting Analysis
 
-Monte Carlo algorithm is used to predict future stock values. Past stock values downloaded using Alpaca APIs are used to create a normal distribution of past daily returns. MC algorithm uses past daily return normal distribution to predict future daily values and cumulative returns by randomly selecting values from the distribution and propagating the stock's current value into the future. Cumulative returns are calculated from the future stock values and plotted for 500 simulations. All simulations are numerically different from each other due to the randomly selected daily return values from the normal distribution. Cumulative return probability distribution is also shown as a bar graph to illustrate the most probable future scenario range from all 500 simulations. 95% Confidence interval and its boundary values are also given for information. These boundary values should be evaluated together with the future cumulative return distribution. The financial forecasting analysis plots are as follows:
+Time series forecasting involves using a model that’s based on historical data to predict future values in the time series. Two models: 1) Prophet and 2) ARIMA were used. Detailed outputs of both models are available via the individual runs of the model files provided in the repository main path. A summary of the monthly gas consumption and daily prices forecasted from both models is shown below.
 
 ### Summary of Prophet and ARIMA forecasting models 
 <img src="Images/prophet_arima_comparison.png" width="650" height="350">
