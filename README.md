@@ -85,13 +85,14 @@ New library "Bokeh" was used. Bokeh is a data visualization library in Python th
 ## Presentation
 
 Please click on the following link to view the project presentation.
-https://github.com/paragmb/Project1/blob/0159a7dd93a9b84a20cf7eb1b8473090f5864e56/Presentation/FinTech_Project1_Grp3_Presentation.pdf
+https://github.com/paragmb/Project2/blob/main/Presentation/FinTech_Project2_Grp3_Presentation.pdf
 
 ---
 
 ## Future Steps
 
-Although our program gives a guidance on selection of stocks, it will work for any 2 stocks as long as they are supported in Alpaca library. The program can further developed to include multiple (2 or more) stocks for more investment selections. The program can be converted into web-based interactive application in future.
+Machine learning model for natural gas consumption can be updated monthly. Machine learning model for natural gas can be updated daily/weekly. Although Henry Hub (HH) spot prices were used in this time series forecasting analysis, an additional model using the domestic gas prices can also be developed. Impact of LNG exports in next 3 to 5 years can be further studied and incorporated in the natural gas forecasting scenarios. 
+
 
 ---
 
