@@ -70,15 +70,15 @@ Time series forecasting involves using a model that’s based on historical data
 
 ---
 
-## Issues
-
-Few modifications were made to original csv data files to make them work for the ARIMA code. Dates format converted to integer time series and named as daily and monthly. Cost unit is converted to cents from dollar (float to integer conversion).
-
----
-
 ## New Library
 
 New library "ARIMA" was used. An ARIMA model is a class of statistical models for analyzing and forecasting time series data. ARIMA is short for "AutoRegressive Integrated Moving Average". Any ‘non-seasonal’ time series that exhibits patterns and is not a random white noise can be modeled with ARIMA models. If a time series, has seasonal patterns, then you need to add seasonal terms and it becomes SARIMA, short for ‘Seasonal ARIMA’. 
+
+---
+
+## Issues
+
+Few modifications were made to original csv data files to make them work for the ARIMA code. Dates format converted to integer time series and named as daily and monthly. Cost unit is converted to cents from dollar (float to integer conversion).
 
 ---
 
