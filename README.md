@@ -1,12 +1,12 @@
 # Project2 - Natural Gas Forecasting/Scheduling
 
-This machine learning model will help natural gas supplier/scheduler prepare for better inventory controls in future. These kind of machine learning tool can come up with automated forecasting models and allow one person to do the work of multiple data scientists.
+This machine learning model will help natural gas supplier/scheduler prepare for better inventory controls in future. Additionally, the machine learning tool can come up with automated forecasting models and allow one person to do the work of multiple data scientists.
 
 ---
 
 ## Project Overview
 
-Using time series forecasting models, develop a machine learning model to forecast natural gas pricing and consumption based on 10 years of historical data. Further, develop a correlation table (and/or heatmap) which contains the correlations between following variables: natural gas price, natural gas consumption, natural gas exports, storage and ambient temperature.                                                                                                               
+Using time series forecasting models, develop a machine learning model to forecast natural gas pricing and consumption based on 10 years of historical data. Further, develop a correlation table and and heatmap which contains the correlations between following variables: natural gas price, natural gas consumption, natural gas exports, storage and ambient temperature.                                                                                                               
 
 The following two time series forecasting models were used: 1) Prophet 2) ARIMA
 
