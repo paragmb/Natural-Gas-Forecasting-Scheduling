@@ -23,7 +23,7 @@ The following two time series forecasting models were used: 1) Prophet 2) ARIMA
 - National Centers for Environmental Information (ncei.noaa.gov)
 
 #### Historical Data:
-- 10 Years(2012-2022)
+- 10 Years (2012-2022)
 
 #### Forecast Data:
 - 3 Years
@@ -72,7 +72,7 @@ Time series forecasting involves using a model that’s based on historical data
 
 ## Issues
 
-Waiting for Onur to send the csv file issues while dealing with ARIMA model. 
+Few modifications were made to original csv data files to make them work for the ARIMA code. Dates format converted to integer time series and named as daily and monthly. Cost unit is converted to cents from dollar (float to integer conversion).
 
 ---
 
@@ -91,7 +91,7 @@ https://github.com/paragmb/Project2/blob/main/Presentation/FinTech_Project2_Grp3
 
 ## Future Steps
 
-Machine learning model for natural gas consumption can be updated monthly. Machine learning model for natural gas can be updated daily/weekly. Although Henry Hub (HH) spot prices were used in this time series forecasting analysis, an additional model using the domestic gas prices can also be developed. Impact of LNG exports in next 3 to 5 years can be further studied and incorporated in the natural gas forecasting scenarios. 
+Machine learning model for natural gas consumption can be updated monthly. Machine learning model for natural gas prices can be updated daily/weekly. Although Henry Hub (HH) spot prices were used in this time series forecasting analysis, an additional model using the domestic gas prices can also be developed. Impact of LNG exports in next 3 to 5 years can be further studied and incorporated in the natural gas forecasting scenarios. 
 
 
 ---
